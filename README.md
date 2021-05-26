@@ -11,16 +11,14 @@
 	🚧  Desafios Docker 🚀 Em construção...  🚧
 </h4>
 
-<a name="objetivo">Objetivo</a>
+<a name="objetivo"><h1>Objetivo</h1></a><p>
 Desenvolver desafios para treinamentos com Docker.
 
-<a name="desafiogo">Desafio Golang</a>
+<a name="desafiogo"><h1>Desafio Golang</h1></a>
 
-## Publicar uma imagem no docker hub.
+Descrição: Publicar uma imagem no docker hub.
 
-Quando executarmos:
-
-docker run <seu-user>/codeeducation
+Quando executarmos docker run <seu-user>/codeeducation
 
 Temos que ter o seguinte resultado: FullCycle Rocks!
 
