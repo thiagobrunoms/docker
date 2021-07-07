@@ -1,0 +1,23 @@
+db:
+  host: 'postgres'
+  username: 'thiagodesales'
+  password: 'tm1319!@12postgres'
+  synchronize: true
+  database: 'fullcycle'
+  dropSchema: false
+
+kafka:
+  kafkaHost: 'localhost'
+  kafkaPort: 9092
+
+event_sourcing:
+  server_url: 'http://127.0.0.1:2113'
+  server_channel_url: 'streams'
+  credencials:
+    username: 'admin'
+    password: 'changeit'
+  channels:
+    settings: 'deliverysettings'
+
+google:
+  mapsKey: 'AIzaSyDf8Om0wLMPewC-RkyNp9pjWBwHD75xTRc'
