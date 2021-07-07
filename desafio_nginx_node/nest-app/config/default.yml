@@ -1,0 +1,10 @@
+server:
+  port: 3333
+
+db:
+  host: 'postgres'
+  username: 'thiagodesales'
+  password: 'tm1319!@12postgres'
+  synchronize: true
+  database: 'fullcycle'
+  dropSchema: false

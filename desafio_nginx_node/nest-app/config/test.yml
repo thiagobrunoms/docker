@@ -1,0 +1,7 @@
+db:
+  host: 'postgres'
+  username: 'postgres'
+  password: 'docker'
+  synchronize: true
+  database: 'payment_test'
+  dropSchema: false
