@@ -22,17 +22,17 @@ export class UsersModule {
     @Inject('IUserRepository')
     private readonly repository: UseRepository
   ) {
-    // const user1 = new UserEntity() 
-    // user1.fullName = 'Thiago de Sales';
-    // user1.birthday = new Date(1986, 1, 13);
-    // user1.isActive = true;
+    const user1 = new UserEntity() 
+    user1.fullName = 'João da Silva';
+    user1.birthday = new Date(1986, 1, 13);
+    user1.isActive = true;
 
-    // const user2 = new UserEntity() 
-    // user2.fullName = 'Wesley Willians';
-    // user2.birthday = new Date(1987, 2, 14);
-    // user2.isActive = false;
+    const user2 = new UserEntity() 
+    user2.fullName = 'Maria Santana';
+    user2.birthday = new Date(1987, 2, 14);
+    user2.isActive = false;
 
-    // repository.save(user1);
-    // repository.save(user2);
+    repository.save(user1);
+    repository.save(user2);
   };
 }
